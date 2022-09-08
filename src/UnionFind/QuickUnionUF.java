@@ -22,4 +22,8 @@ public class QuickUnionUF {
         int j = root(q);
         id[i] = j;
     }
+
+    public int find() {
+        return 1;
+    }
 }
