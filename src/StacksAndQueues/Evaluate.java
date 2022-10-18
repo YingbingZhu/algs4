@@ -1,5 +1,8 @@
 package StacksAndQueues;
 
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 import java.util.Stack;
 
 /** Dijkstra's two stack algorithm*/
