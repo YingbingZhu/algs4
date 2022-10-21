@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9829e86e-2d22-4183-aa70-849d4af3d456" name="Default Changelist" comment="feat: queue with two stacks">
-      <change afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksAndQueues/StackWithMax.java" afterDir="false" />
+    <list default="true" id="9829e86e-2d22-4183-aa70-849d4af3d456" name="Default Changelist" comment="feat: stack with max">
+      <change afterPath="$PROJECT_DIR$/src/RandomizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,15 @@
       <recent name="Algorithms.src.StacksAndQueues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PercolationStats">
+  <component name="RunManager" selected="Application.Deque">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deque" />
+      <module name="algs4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnionFind.Percolation" />
       <module name="algs4" />
@@ -98,16 +106,6 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercolationTest.isFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algs4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
-      <option name="METHOD_NAME" value="isFull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PercolationTest.isPercolate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algs4" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,18 +128,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Percolation" />
-      <item itemvalue="JUnit.PercolationTest.isFull" />
       <item itemvalue="JUnit.PercolationTest.numberOfOpenSites" />
       <item itemvalue="JUnit.PercolationTest.isPercolate" />
       <item itemvalue="Application.PercolationStats" />
+      <item itemvalue="Application.Deque" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deque" />
         <item itemvalue="Application.PercolationStats" />
         <item itemvalue="JUnit.PercolationTest.isPercolate" />
         <item itemvalue="Application.Percolation" />
         <item itemvalue="JUnit.PercolationTest.numberOfOpenSites" />
-        <item itemvalue="JUnit.PercolationTest.isFull" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666252382525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: stack with max">
+      <created>1666259632670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666259632670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: finish assignment1" />
     <MESSAGE value="feat: queue with two stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: queue with two stacks" />
+    <MESSAGE value="feat: stack with max" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: stack with max" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
