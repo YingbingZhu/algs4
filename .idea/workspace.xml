@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9829e86e-2d22-4183-aa70-849d4af3d456" name="Default Changelist" comment="feat: deque">
+    <list default="true" id="9829e86e-2d22-4183-aa70-849d4af3d456" name="Default Changelist" comment="feat: deque and RandomizedQueue">
+      <change afterPath="$PROJECT_DIR$/src/Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomizedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,24 +63,10 @@
       <recent name="Algorithms.src.StacksAndQueues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Deque">
+  <component name="RunManager" selected="Application.Permutation">
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deque" />
       <module name="algs4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeNoErrorCheck" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.Percolation" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnionFind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="MakeNoErrorCheck" enabled="true" />
@@ -95,6 +81,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <module name="algs4" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="MakeNoErrorCheck" enabled="true" />
@@ -125,19 +119,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Percolation" />
       <item itemvalue="Application.PercolationStats" />
       <item itemvalue="Application.Deque" />
       <item itemvalue="JUnit.PercolationTest.isPercolate" />
       <item itemvalue="Application.RandomizedQueue" />
+      <item itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Deque" />
         <item itemvalue="Application.RandomizedQueue" />
         <item itemvalue="Application.PercolationStats" />
         <item itemvalue="JUnit.PercolationTest.isPercolate" />
-        <item itemvalue="Application.Percolation" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666345230884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: deque and RandomizedQueue">
+      <created>1666860161587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666860161587</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +202,8 @@
     <MESSAGE value="feat: queue with two stacks" />
     <MESSAGE value="feat: stack with max" />
     <MESSAGE value="feat: deque" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: deque" />
+    <MESSAGE value="feat: deque and RandomizedQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: deque and RandomizedQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -19,7 +19,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     public RandomizedQueue() {
         size = 0;
         items = (Item[]) new Object[1];
-
     }
 
     // is the randomized queue empty?
@@ -153,11 +152,9 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         queue.enqueue(text);
         StdOut.println("enqueue() with: '" + text + "'");
 
-        queue.dequeue();
-        StdOut.println("dequeue()");
+        StdOut.println("dequeue()" + queue.dequeue());
 
-        queue.sample();
-        StdOut.println("sample()");
+        StdOut.println("sample()" + queue.sample());
 
         text = "F";
         queue.enqueue(text);
