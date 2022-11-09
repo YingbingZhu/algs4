@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9829e86e-2d22-4183-aa70-849d4af3d456" name="Default Changelist" comment="feat: deque and RandomizedQueue">
-      <change afterPath="$PROJECT_DIR$/src/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomizedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <recent name="Algorithms.src.StacksAndQueues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="Application.Point">
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deque" />
       <module name="algs4" />
@@ -94,6 +95,14 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Point" />
+      <module name="algs4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
       <module name="algs4" />
@@ -108,30 +117,20 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercolationTest.isPercolate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algs4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
-      <option name="METHOD_NAME" value="isPercolate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PercolationStats" />
       <item itemvalue="Application.Deque" />
-      <item itemvalue="JUnit.PercolationTest.isPercolate" />
       <item itemvalue="Application.RandomizedQueue" />
       <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.Point" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Point" />
         <item itemvalue="Application.Deque" />
         <item itemvalue="Application.RandomizedQueue" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.PercolationStats" />
-        <item itemvalue="JUnit.PercolationTest.isPercolate" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666860161587</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: deque and RandomizedQueue">
+      <created>1666948980055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666948980055</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

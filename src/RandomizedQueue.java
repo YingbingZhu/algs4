@@ -37,7 +37,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             throw new NullPointerException("Can't add empty element to queue");
         }
         if (size == items.length) {
-            resizeItems( 2 * size);
+            resizeItems(2 * size);
         }
         items[size] = item;
         size++;
@@ -53,7 +53,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         // replace item with last item
         items[index] = items[size-1];
         items[size-1] = null;
-        size --;
+        size--;
         // resize
         if (size > 0 && (size == items.length/4)) {
             resizeItems(items.length/2);
@@ -117,7 +117,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             Item item = copy[index];
             copy[index] = copy[sizeCopy - 1];
             copy[sizeCopy - 1] = null;
-            sizeCopy -- ;
+            sizeCopy--;
 
             return item;
         }
