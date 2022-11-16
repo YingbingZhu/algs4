@@ -11,7 +11,9 @@ public class Point implements Comparable<Point>  {
         this.y = y;
     }
 
-    // draws this point
+    /**
+     * Draws this point to standard draw.
+     */
     public void draw() {
         StdDraw.point(x, y);
     }
